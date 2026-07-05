@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/static/picture/favicon.ico">
+  <title data-i18n="nav.products">產品中心 - 燦成通信</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">
+      <img src="/static/picture/logo-h.png" alt="燦成通信" class="nav-logo-img">
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="/" data-i18n="nav.home">首頁</a>
+      <a href="/about.html" data-i18n="nav.about">關於我們</a>
+      <a href="/products.html" class="active" data-i18n="nav.products">產品中心</a>
+      <a href="/contact.html" data-i18n="nav.contact">聯繫我們</a>
+      <div class="lang-switch">
+        <button data-lang="zh-HK" class="active" onclick="I18N.switchLang('zh-HK')">繁</button>
+        <button data-lang="zh-CN" onclick="I18N.switchLang('zh-CN')">简</button>
+        <button data-lang="en" onclick="I18N.switchLang('en')">EN</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <h1 data-i18n="products.title">產品中心</h1>
+  <p data-i18n="products.desc">探索我們全系列上網卡及數據漫遊方案</p>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="products-toolbar">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all" data-i18n="products.allProducts">全部產品</button>
+        <button class="filter-tab" data-filter="featured" data-i18n="products.featured">精選推薦</button>
+      </div>
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="productSearch" data-i18n-placeholder="products.search" placeholder="搜尋產品...">
+      </div>
+    </div>
+    <div class="products-grid" id="productsGrid">
+      <!-- JS 動態加載 -->
+    </div>
+    <div id="noProductsMsg" class="empty-state" style="display:none;">
+      <div class="empty-icon">📦</div>
+      <p data-i18n="products.noProducts">暫無產品</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3 data-i18n="site.name" style="color:#fff;font-size:1.3rem;font-weight:700;margin-bottom:12px;">燦成通信</h3>
+      <p data-i18n="site.subSlogan">為您提供全球優質上網卡及通訊服務</p>
+    </div>
+    <div>
+      <h4 data-i18n="footer.quickLinks">快速連結</h4>
+      <ul class="footer-links">
+        <li><a href="/" data-i18n="nav.home">首頁</a></li>
+        <li><a href="/about.html" data-i18n="nav.about">關於我們</a></li>
+        <li><a href="/products.html" data-i18n="nav.products">產品中心</a></li>
+        <li><a href="/contact.html" data-i18n="nav.contact">聯繫我們</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.contactInfo">聯繫資訊</h4>
+      <ul class="footer-links">
+        <li>📧 info@hkcctel.com</li>
+        <li>📞 +852 924 45678</li>
+        <li>📍 深水埗汝州街 256 號 A 地鋪</li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.followUs">關注我們</h4>
+      <ul class="footer-links">
+        <li><a href="https://api.whatsapp.com/send?phone=85292445678" target="_blank">WhatsApp</a></li>
+        <li><a href="https://www.facebook.com/hkcctel/" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 香港燦成通信貿易有限公司 <span data-i18n="footer.rights">版權所有</span>.</span>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>

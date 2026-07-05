@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/static/picture/favicon.ico">
+  <title data-i18n="nav.contact">聯繫我們 - 燦成通信</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">
+      <img src="/static/picture/logo-h.png" alt="燦成通信" class="nav-logo-img">
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="/" data-i18n="nav.home">首頁</a>
+      <a href="/about.html" data-i18n="nav.about">關於我們</a>
+      <a href="/products.html" data-i18n="nav.products">產品中心</a>
+      <a href="/contact.html" class="active" data-i18n="nav.contact">聯繫我們</a>
+      <div class="lang-switch">
+        <button data-lang="zh-HK" class="active" onclick="I18N.switchLang('zh-HK')">繁</button>
+        <button data-lang="zh-CN" onclick="I18N.switchLang('zh-CN')">简</button>
+        <button data-lang="en" onclick="I18N.switchLang('en')">EN</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <h1 data-i18n="contact.title">聯繫我們</h1>
+  <p data-i18n="contact.desc">如有任何查詢，歡迎與我們聯繫</p>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- 聯繫資訊 -->
+      <div>
+        <ul class="contact-info-list">
+          <li class="contact-info-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3 data-i18n="contact.address">公司地址</h3>
+              <p data-i18n="contact.addressText">深水埗汝州街 256 號 A 地鋪</p>
+            </div>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h3 data-i18n="contact.phone">電話</h3>
+              <p>+852 924 45678</p>
+            </div>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h3 data-i18n="contact.email">電郵</h3>
+              <p>info@hkcctel.com</p>
+            </div>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-icon">💬</div>
+            <div>
+              <h3 data-i18n="contact.whatsapp">WhatsApp</h3>
+              <p><a href="https://api.whatsapp.com/send?phone=85292445678" target="_blank">+852 924 45678</a></p>
+            </div>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <h3 data-i18n="contact.businessHours">營業時間</h3>
+              <p style="white-space:pre-line;" data-i18n="contact.businessHoursText">周一至周日 上午 10:00 - 下午 6:00
+公眾假期休息</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 聯繫表單 -->
+      <div class="contact-form-card">
+        <h2 data-i18n="contact.form.title">發送查詢</h2>
+        <form id="contactForm" action="https://formspree.io/f/xqevbnzg" method="POST">
+          <div class="form-group">
+            <label data-i18n="contact.form.name">您的姓名</label>
+            <input type="text" name="name" required data-i18n-placeholder="contact.form.name">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.form.email">電郵地址</label>
+            <input type="email" name="email" required data-i18n-placeholder="contact.form.email">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.form.phone">聯絡電話</label>
+            <input type="tel" name="phone" data-i18n-placeholder="contact.form.phone">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.form.subject">查詢主題</label>
+            <input type="text" name="subject" data-i18n-placeholder="contact.form.subject">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.form.message">查詢內容</label>
+            <textarea name="message" required data-i18n-placeholder="contact.form.message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;" data-i18n="contact.form.submit">提交查詢</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3 data-i18n="site.name" style="color:#fff;font-size:1.3rem;font-weight:700;margin-bottom:12px;">燦成通信</h3>
+      <p data-i18n="site.subSlogan">為您提供全球優質上網卡及通訊服務</p>
+    </div>
+    <div>
+      <h4 data-i18n="footer.quickLinks">快速連結</h4>
+      <ul class="footer-links">
+        <li><a href="/" data-i18n="nav.home">首頁</a></li>
+        <li><a href="/about.html" data-i18n="nav.about">關於我們</a></li>
+        <li><a href="/products.html" data-i18n="nav.products">產品中心</a></li>
+        <li><a href="/contact.html" data-i18n="nav.contact">聯繫我們</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.contactInfo">聯繫資訊</h4>
+      <ul class="footer-links">
+        <li>📧 info@hkcctel.com</li>
+        <li>📞 +852 924 45678</li>
+        <li>📍 深水埗汝州街 256 號 A 地鋪</li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.followUs">關注我們</h4>
+      <ul class="footer-links">
+        <li><a href="https://api.whatsapp.com/send?phone=85292445678" target="_blank">WhatsApp</a></li>
+        <li><a href="https://www.facebook.com/hkcctel/" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 香港燦成通信貿易有限公司 <span data-i18n="footer.rights">版權所有</span>.</span>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
