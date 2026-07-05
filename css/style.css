@@ -69,9 +69,9 @@ img { max-width: 100%; height: auto; }
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1520px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 clamp(24px, 4vw, 56px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -363,7 +363,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1480px;
   margin: 0 auto;
 }
 
@@ -2130,13 +2130,15 @@ img { max-width: 100%; height: auto; }
 }
 
 .cx-proof {
-  background: linear-gradient(180deg, #071625 0%, #0E1B2D 100%);
-  padding: 54px 24px 64px;
+  background:
+    radial-gradient(circle at 78% 0%, rgba(0, 184, 255, 0.16), transparent 32%),
+    linear-gradient(180deg, #071625 0%, #0A1323 100%);
+  padding: 58px 24px 70px;
   color: #fff;
 }
 
 .cx-proof-inner {
-  max-width: 1200px;
+  max-width: 1480px;
   margin: 0 auto;
 }
 
@@ -2165,11 +2167,13 @@ img { max-width: 100%; height: auto; }
 }
 
 .cx-proof-item {
-  padding: 24px 22px;
-  min-height: 146px;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(255,255,255,0.04);
-  border-radius: 4px;
+  padding: 26px 24px;
+  min-height: 152px;
+  border: 1px solid rgba(91, 215, 255, 0.16);
+  background: linear-gradient(180deg, rgba(255,255,255,0.075), rgba(255,255,255,0.03));
+  border-radius: 6px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(12px);
 }
 
 .cx-proof-item span {
@@ -2188,7 +2192,11 @@ img { max-width: 100%; height: auto; }
 }
 
 .cx-foundation {
-  background: #F5F8FB;
+  background:
+    linear-gradient(90deg, rgba(22, 93, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(rgba(22, 93, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(180deg, #F4F8FC 0%, #EEF4FA 100%);
+  background-size: 80px 80px, 80px 80px, auto;
 }
 
 .cx-split {
@@ -2204,10 +2212,11 @@ img { max-width: 100%; height: auto; }
   gap: 28px;
   align-items: center;
   padding: 34px;
-  border-radius: 4px;
-  background: #fff;
-  border: 1px solid var(--gray-200);
-  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.98), rgba(246,250,255,0.94));
+  border: 1px solid rgba(203, 213, 225, 0.86);
+  box-shadow: 0 32px 90px rgba(15, 23, 42, 0.14);
 }
 
 .cx-product-copy span {
@@ -2240,9 +2249,9 @@ img { max-width: 100%; height: auto; }
 
 .cx-foundation-stack > div {
   padding: 18px 20px;
-  border-radius: 4px;
-  background: linear-gradient(135deg, #F8FAFC, #FFFFFF);
-  border: 1px solid var(--gray-200);
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid rgba(203, 213, 225, 0.86);
 }
 
 .cx-foundation-stack strong {
@@ -2261,9 +2270,11 @@ img { max-width: 100%; height: auto; }
 }
 
 .cx-capabilities .feature-card {
-  border-radius: 4px;
+  border-radius: 6px;
   text-align: left;
   background: #fff;
+  border-color: rgba(203, 213, 225, 0.86);
+  box-shadow: 0 16px 44px rgba(15, 23, 42, 0.06);
 }
 
 .cx-capabilities .feature-icon {
@@ -2279,6 +2290,120 @@ img { max-width: 100%; height: auto; }
 
 .cx-capabilities .feature-card:hover {
   transform: translateY(-4px);
+}
+
+/* ===== Premium telecom homepage ===== */
+.cx-hero-premium {
+  min-height: 620px;
+  padding: 126px clamp(32px, 5vw, 76px) 72px;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(3, 11, 24, 0.96) 0%, rgba(3, 11, 24, 0.82) 42%, rgba(3, 11, 24, 0.38) 100%),
+    linear-gradient(180deg, rgba(3, 11, 24, 0.28) 0%, rgba(3, 11, 24, 0.96) 100%),
+    url('/static/picture/hero-connectivity-bg.png') center right / cover no-repeat;
+  color: #fff;
+}
+
+.cx-hero-premium::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 28% 28%, rgba(22, 93, 255, 0.26), transparent 34%),
+    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size: auto, 96px 96px, 96px 96px;
+  mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.65) 62%, transparent 100%);
+  pointer-events: none;
+}
+
+.cx-hero-premium::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 180px;
+  background: linear-gradient(180deg, transparent, #071625);
+  pointer-events: none;
+}
+
+.cx-hero-premium .cx-hero-inner {
+  display: block;
+  max-width: 1520px;
+}
+
+.cx-hero-premium .cx-hero-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 940px;
+}
+
+.cx-hero-premium .cx-eyebrow {
+  color: #C7F4FF;
+  background: rgba(6, 32, 62, 0.68);
+  border-color: rgba(91, 215, 255, 0.34);
+  box-shadow: 0 18px 50px rgba(0, 184, 255, 0.1);
+  backdrop-filter: blur(14px);
+}
+
+.cx-hero-premium h1 {
+  max-width: 940px;
+  color: #fff;
+  font-size: clamp(3.35rem, 5vw, 4.75rem);
+  line-height: 1.08;
+  text-shadow: 0 18px 46px rgba(0, 0, 0, 0.46);
+  word-break: keep-all;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+
+.cx-hero-premium h1::first-letter {
+  color: #5BD7FF;
+}
+
+.cx-hero-premium p {
+  max-width: 720px;
+  color: rgba(226, 240, 255, 0.86);
+}
+
+.cx-hero-premium .cx-hero-line {
+  width: min(420px, 70%);
+  background: linear-gradient(90deg, #00B8FF, #5B7CFF, rgba(91,124,255,0));
+  box-shadow: 0 0 28px rgba(0, 184, 255, 0.32);
+}
+
+.cx-hero-proof-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: -12px 0 30px;
+}
+
+.cx-hero-proof-row span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(91, 215, 255, 0.24);
+  background: rgba(255,255,255,0.07);
+  color: rgba(226, 240, 255, 0.84);
+  font-size: 0.82rem;
+  font-weight: 750;
+  backdrop-filter: blur(12px);
+}
+
+.cx-hero-premium .btn-outline {
+  color: #fff;
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.22);
+  backdrop-filter: blur(12px);
+}
+
+.cx-hero-premium .btn-outline:hover {
+  background: rgba(255,255,255,0.14);
+  border-color: rgba(255,255,255,0.36);
 }
 
 /* ===== CCTel clean enterprise homepage revision ===== */
@@ -2305,7 +2430,7 @@ img { max-width: 100%; height: auto; }
 
 .cx-hero-light .cx-hero-inner {
   display: block;
-  max-width: 1080px;
+  max-width: 1120px;
 }
 
 .cx-hero-light .cx-eyebrow {
@@ -2316,10 +2441,13 @@ img { max-width: 100%; height: auto; }
 }
 
 .cx-hero-light h1 {
-  max-width: 800px;
+  max-width: 980px;
   color: var(--dark);
-  font-size: 4.35rem;
+  font-size: clamp(3.65rem, 5.15vw, 4.85rem);
   line-height: 1.08;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  text-wrap: balance;
 }
 
 .cx-hero-light h1::first-letter {
@@ -2496,32 +2624,17 @@ img { max-width: 100%; height: auto; }
   line-height: 1.45;
 }
 
-.cx-hero-light + .cx-proof {
-  background: #fff;
-  color: var(--dark);
-  border-top: 1px solid var(--gray-200);
-}
-
-.cx-hero-light + .cx-proof h2 {
-  color: var(--dark);
-}
-
-.cx-hero-light + .cx-proof .cx-proof-item {
-  background: #fff;
-  border-color: var(--gray-200);
-  box-shadow: 0 14px 42px rgba(15, 23, 42, 0.06);
-}
-
-.cx-hero-light + .cx-proof .cx-proof-item span {
-  color: var(--primary);
-}
-
-.cx-hero-light + .cx-proof .cx-proof-item p {
-  color: var(--gray-500);
-}
-
 /* ===== 響應式設計 ===== */
 @media (max-width: 1024px) {
+  .cx-hero-premium {
+    min-height: 600px;
+    background-position: 58% center;
+  }
+
+  .cx-hero-premium .cx-hero-copy {
+    max-width: 760px;
+  }
+
   .cx-hero-light .cx-hero-inner {
     grid-template-columns: 1fr;
     gap: 44px;
@@ -2612,8 +2725,13 @@ img { max-width: 100%; height: auto; }
   .cx-hero h1 {
     font-size: 2.55rem;
   }
+  .cx-hero-premium h1 {
+    max-width: 680px;
+    font-size: 3.15rem;
+  }
   .cx-hero-light h1 {
     font-size: 2.75rem;
+    max-width: 680px;
   }
   .cx-hero p {
     font-size: 1rem;
@@ -2634,6 +2752,9 @@ img { max-width: 100%; height: auto; }
   }
   .cx-hero-actions .btn {
     min-width: 0;
+  }
+  .cx-hero-proof-row {
+    margin-bottom: 24px;
   }
   .cx-network-visual {
     min-height: 360px;
@@ -2740,8 +2861,24 @@ img { max-width: 100%; height: auto; }
   .cx-hero-light {
     padding-top: 98px;
   }
+  .cx-hero-premium {
+    min-height: 580px;
+    padding-top: 110px;
+    background-position: 64% center;
+  }
+  .cx-hero-premium::before {
+    background-size: auto, 58px 58px, 58px 58px;
+  }
+  .cx-hero-premium h1 {
+    max-width: 100%;
+    font-size: 2.22rem;
+  }
+  .cx-hero-premium p {
+    font-size: 0.96rem;
+  }
   .cx-hero-light h1 {
     font-size: 2.15rem;
+    max-width: 100%;
   }
   .cx-panel-grid {
     grid-template-columns: 1fr;
