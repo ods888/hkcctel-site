@@ -1,0 +1,879 @@
+[
+  {
+    "goodsId": "10200148",
+    "skus": [
+      {
+        "day": "60",
+        "data": "50",
+        "pcid": 11238661,
+        "price": 208,
+        "oriPrice": 338,
+        "displayPrice": "HK$ 208",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/mjm-60-chi.jpg"
+      },
+      {
+        "day": "60",
+        "data": "75",
+        "pcid": 11238661,
+        "price": 208,
+        "oriPrice": 338,
+        "displayPrice": "HK$ 208",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/mjm-60-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "50",
+        "pcid": 11238661,
+        "price": 208,
+        "oriPrice": 338,
+        "displayPrice": "HK$ 208",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/mjm-60-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "75",
+        "pcid": 11238661,
+        "price": 208,
+        "oriPrice": 338,
+        "displayPrice": "HK$ 208",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/mjm-60-chi.jpg"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021016",
+    "skus": [
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "10",
+        "data": "2",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "10",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "10",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "10",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "12",
+        "data": "2",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "12",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "12",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      },
+      {
+        "day": "12",
+        "data": "3",
+        "pcid": 11239663,
+        "price": 36,
+        "oriPrice": 118,
+        "displayPrice": "HK$ 36",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260527/malaysia5-chi.jpg"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021010",
+    "skus": [
+      {
+        "day": "3",
+        "data": "5",
+        "pcid": 11237872,
+        "price": 54,
+        "oriPrice": 88,
+        "displayPrice": "HK$ 54",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/JP3-chi.jpg"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021019",
+    "skus": [
+      {
+        "day": "365",
+        "data": "15",
+        "pcid": 10237022,
+        "price": 73,
+        "oriPrice": 138,
+        "displayPrice": "HK$ 73",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20240429/asia8_2.png"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021024",
+    "skus": [
+      {
+        "day": "10",
+        "data": "12",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "10",
+        "data": "14",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "10",
+        "data": "18",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "15",
+        "data": "12",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "15",
+        "data": "14",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "15",
+        "data": "18",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "30",
+        "data": "12",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "30",
+        "data": "14",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      },
+      {
+        "day": "30",
+        "data": "18",
+        "pcid": 11238657,
+        "price": 373,
+        "oriPrice": 800,
+        "displayPrice": "HK$ 373",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20260430/au-90-50GB-chi.jpg"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021004",
+    "skus": [
+      {
+        "day": "1",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "3",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "4",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "4",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "4",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "4",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "4",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "4",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "7",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "7",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "7",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "7",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "7",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      },
+      {
+        "day": "7",
+        "data": "2",
+        "pcid": 11237879,
+        "price": 25,
+        "oriPrice": 66,
+        "displayPrice": "HK$ 25",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hkmc4-chi.jpg"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021002",
+    "skus": [
+      {
+        "day": "1",
+        "data": "3",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "5",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "10",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "6",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "1",
+        "data": "25",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "3",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "5",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "10",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "6",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "2",
+        "data": "25",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "3",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "5",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "10",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "6",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "5",
+        "data": "25",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "3",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "5",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "10",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "6",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "25",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "3",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "5",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "10",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "6",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      },
+      {
+        "day": "90",
+        "data": "25",
+        "pcid": 11237874,
+        "price": 20,
+        "oriPrice": 49,
+        "displayPrice": "HK$ 20",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20250818/hk3-chi.jpg"
+      }
+    ]
+  },
+  {
+    "goodsId": "1021123",
+    "skus": [
+      {
+        "day": "30",
+        "data": "25",
+        "pcid": 11237385,
+        "price": 80,
+        "oriPrice": 268,
+        "displayPrice": "HK$ 80",
+        "img": "https://www.cuniq.com/pc-static/prepaid-cards/20240910/mm25.png"
+      }
+    ]
+  }
+]

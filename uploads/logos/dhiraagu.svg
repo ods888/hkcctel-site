@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <radialGradient id="dhirG" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FF5252"/>
+      <stop offset="100%" style="stop-color:#B71C1C"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="36" fill="url(#dhirG)"/>
+  <path d="M40 45 Q50 28 60 45 M35 52 Q50 40 65 52 M38 58 Q50 48 62 58" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="100" y="48" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#D32F2F">Dhiraagu</text>
+  <text x="100" y="72" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#888">Maldives</text>
+</svg>

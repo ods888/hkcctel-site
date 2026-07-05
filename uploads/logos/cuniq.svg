@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="cuniqG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D7000F"/>
+      <stop offset="100%" style="stop-color:#FF1744"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="30" fill="none" stroke="url(#cuniqG)" stroke-width="6"/>
+  <path d="M35 40 Q50 25 65 40 Q50 55 35 40" fill="url(#cuniqG)"/>
+  <path d="M35 60 Q50 75 65 60 Q50 45 35 60" fill="url(#cuniqG)" opacity="0.7"/>
+  <text x="100" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1a1a1a">CUniq</text>
+  <text x="100" y="72" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#D7000F">香港聯通</text>
+</svg>

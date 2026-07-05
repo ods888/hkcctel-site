@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="vfG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E60000"/>
+      <stop offset="100%" style="stop-color:#FF3333"/>
+    </linearGradient>
+  </defs>
+  <circle cx="42" cy="48" r="30" fill="none" stroke="url(#vfG)" stroke-width="7"/>
+  <path d="M42 18 Q25 33 25 48 Q25 63 42 78" fill="none" stroke="url(#vfG)" stroke-width="7" stroke-linecap="round"/>
+  <text x="100" y="52" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#1a1a1a">Vodafone</text>
+  <text x="100" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#E60000">Global Network</text>
+</svg>

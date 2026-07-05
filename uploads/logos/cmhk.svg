@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="cmhkG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00A650"/>
+      <stop offset="100%" style="stop-color:#00C853"/>
+    </linearGradient>
+  </defs>
+  <circle cx="48" cy="45" r="32" fill="none" stroke="url(#cmhkG)" stroke-width="8"/>
+  <circle cx="48" cy="45" r="8" fill="#0052CC"/>
+  <path d="M48 13 Q72 28 72 45 Q72 62 48 77" fill="none" stroke="url(#cmhkG)" stroke-width="8" stroke-linecap="round"/>
+  <text x="100" y="52" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#1a1a1a">中國移動香港</text>
+  <text x="100" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#00A650">CMHK</text>
+</svg>

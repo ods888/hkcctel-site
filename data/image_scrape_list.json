@@ -1,0 +1,366 @@
+[
+  {
+    "goodsId": "900778",
+    "prepaidCardId": 900701,
+    "name": "澳門上網卡",
+    "shortLabel": "1日 每日3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=900778&prepaidCardId=900701"
+  },
+  {
+    "goodsId": "900778",
+    "prepaidCardId": 900702,
+    "name": "澳門上網卡",
+    "shortLabel": "2日 每日3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=900778&prepaidCardId=900702"
+  },
+  {
+    "goodsId": "900778",
+    "prepaidCardId": 900703,
+    "name": "澳門上網卡",
+    "shortLabel": "3日 每日3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=900778&prepaidCardId=900703"
+  },
+  {
+    "goodsId": "900778",
+    "prepaidCardId": 900704,
+    "name": "澳門上網卡",
+    "shortLabel": "5日 每日3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=900778&prepaidCardId=900704"
+  },
+  {
+    "goodsId": "900778",
+    "prepaidCardId": 900705,
+    "name": "澳門上網卡",
+    "shortLabel": "7日 每日3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=900778&prepaidCardId=900705"
+  },
+  {
+    "goodsId": "1021002",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021002",
+    "name": "香港多日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021004",
+    "prepaidCardId": 11237879,
+    "name": "香港及澳門多日上網卡",
+    "shortLabel": "4日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021004&prepaidCardId=11237879"
+  },
+  {
+    "goodsId": "1021004",
+    "prepaidCardId": 11237881,
+    "name": "香港及澳門多日上網卡",
+    "shortLabel": "7日-180日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021004&prepaidCardId=11237881"
+  },
+  {
+    "goodsId": "1021006",
+    "prepaidCardId": 11237174,
+    "name": "中國內地及澳門多日上網卡",
+    "shortLabel": "180日 21GB+3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021006&prepaidCardId=11237174"
+  },
+  {
+    "goodsId": "1021006",
+    "prepaidCardId": 11237151,
+    "name": "中國內地及澳門多日上網卡",
+    "shortLabel": "180日 33GB+5GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021006&prepaidCardId=11237151"
+  },
+  {
+    "goodsId": "1021006",
+    "prepaidCardId": 10237025,
+    "name": "中國內地及澳門多日上網卡",
+    "shortLabel": "180日/365日",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021006&prepaidCardId=10237025"
+  },
+  {
+    "goodsId": "1021006",
+    "prepaidCardId": 11238603,
+    "name": "中國內地及澳門多日上網卡",
+    "shortLabel": "90日",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021006&prepaidCardId=11238603"
+  },
+  {
+    "goodsId": "1021006",
+    "prepaidCardId": 11238599,
+    "name": "中國內地及澳門多日上網卡",
+    "shortLabel": "2日-180日",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021006&prepaidCardId=11238599"
+  },
+  {
+    "goodsId": "1021010",
+    "prepaidCardId": 11237874,
+    "name": "日本多日通話/上網卡",
+    "shortLabel": "3日 5GB+3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021010&prepaidCardId=11237874"
+  },
+  {
+    "goodsId": "1021010",
+    "prepaidCardId": 11237157,
+    "name": "日本多日通話/上網卡",
+    "shortLabel": "5日-30日 5GB+3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021010&prepaidCardId=11237157"
+  },
+  {
+    "goodsId": "1021011",
+    "prepaidCardId": 11237675,
+    "name": "南韓多日通話/上網卡",
+    "shortLabel": "3日 每日 3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021011&prepaidCardId=11237675"
+  },
+  {
+    "goodsId": "1021011",
+    "prepaidCardId": 11237677,
+    "name": "南韓多日通話/上網卡",
+    "shortLabel": "5日/8日 每日 3GB/10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021011&prepaidCardId=11237677"
+  },
+  {
+    "goodsId": "1021011",
+    "prepaidCardId": 10237006,
+    "name": "南韓多日通話/上網卡",
+    "shortLabel": "5日 10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021011&prepaidCardId=10237006"
+  },
+  {
+    "goodsId": "1021011",
+    "prepaidCardId": 10237004,
+    "name": "南韓多日通話/上網卡",
+    "shortLabel": "3日 10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021011&prepaidCardId=10237004"
+  },
+  {
+    "goodsId": "1021011",
+    "prepaidCardId": 11237679,
+    "name": "南韓多日通話/上網卡",
+    "shortLabel": "8日/15日 每日 3GB/10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021011&prepaidCardId=11237679"
+  },
+  {
+    "goodsId": "1021011",
+    "prepaidCardId": 11237681,
+    "name": "南韓多日通話/上網卡",
+    "shortLabel": "15日/30日 每日 3GB/10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021011&prepaidCardId=11237681"
+  },
+  {
+    "goodsId": "1021012",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021012",
+    "name": "日韓多日通話/上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021013",
+    "prepaidCardId": 11237801,
+    "name": "越南多日通話/上網卡",
+    "shortLabel": "2日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021013&prepaidCardId=11237801"
+  },
+  {
+    "goodsId": "1021013",
+    "prepaidCardId": 11237802,
+    "name": "越南多日通話/上網卡",
+    "shortLabel": "3日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021013&prepaidCardId=11237802"
+  },
+  {
+    "goodsId": "1021013",
+    "prepaidCardId": 11237803,
+    "name": "越南多日通話/上網卡",
+    "shortLabel": "5日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021013&prepaidCardId=11237803"
+  },
+  {
+    "goodsId": "1021013",
+    "prepaidCardId": 11237804,
+    "name": "越南多日通話/上網卡",
+    "shortLabel": "7日/8日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021013&prepaidCardId=11237804"
+  },
+  {
+    "goodsId": "1021013",
+    "prepaidCardId": 11237805,
+    "name": "越南多日通話/上網卡",
+    "shortLabel": "15日 每日 2GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021013&prepaidCardId=11237805"
+  },
+  {
+    "goodsId": "1021014",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021014",
+    "name": "泰國多日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021016",
+    "prepaidCardId": 11239663,
+    "name": "星馬泰及印尼多日通話/上網卡",
+    "shortLabel": "5日 每日 3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021016&prepaidCardId=11239663"
+  },
+  {
+    "goodsId": "1021016",
+    "prepaidCardId": 11237166,
+    "name": "星馬泰及印尼多日通話/上網卡",
+    "shortLabel": "8日 每日 3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021016&prepaidCardId=11237166"
+  },
+  {
+    "goodsId": "1021016",
+    "prepaidCardId": 11237168,
+    "name": "星馬泰及印尼多日通話/上網卡",
+    "shortLabel": "15日 每日 3GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021016&prepaidCardId=11237168"
+  },
+  {
+    "goodsId": "1021017",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021017",
+    "name": "東盟8日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021018",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021018",
+    "name": "東南亞8日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021019",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021019",
+    "name": "亞洲多日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021023",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021023",
+    "name": "歐洲多日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021024",
+    "prepaidCardId": 11238608,
+    "name": "澳紐多日通話/上網卡",
+    "shortLabel": "10日-30日 50GB/100GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021024&prepaidCardId=11238608"
+  },
+  {
+    "goodsId": "1021024",
+    "prepaidCardId": 11238657,
+    "name": "澳紐多日通話/上網卡",
+    "shortLabel": "90日 50GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021024&prepaidCardId=11238657"
+  },
+  {
+    "goodsId": "1021024",
+    "prepaidCardId": 11238659,
+    "name": "澳紐多日通話/上網卡",
+    "shortLabel": "90日 100GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021024&prepaidCardId=11238659"
+  },
+  {
+    "goodsId": "1021030",
+    "prepaidCardId": 10237036,
+    "name": "美加墨30日上網卡",
+    "shortLabel": "30日 每日1GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021030&prepaidCardId=10237036"
+  },
+  {
+    "goodsId": "1021030",
+    "prepaidCardId": 11237384,
+    "name": "美加墨30日上網卡",
+    "shortLabel": "30日 12GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021030&prepaidCardId=11237384"
+  },
+  {
+    "goodsId": "1021031",
+    "prepaidCardId": 10237140,
+    "name": "阿聯酋30日上網卡",
+    "shortLabel": "30日 4GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021031&prepaidCardId=10237140"
+  },
+  {
+    "goodsId": "1021031",
+    "prepaidCardId": 11237155,
+    "name": "阿聯酋30日上網卡",
+    "shortLabel": "30日 6GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021031&prepaidCardId=11237155"
+  },
+  {
+    "goodsId": "1021032",
+    "prepaidCardId": 11237176,
+    "name": "沙特阿拉伯、埃及及土耳其30日上網卡",
+    "shortLabel": "30日 6GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021032&prepaidCardId=11237176"
+  },
+  {
+    "goodsId": "1021032",
+    "prepaidCardId": 11237177,
+    "name": "沙特阿拉伯、埃及及土耳其30日上網卡",
+    "shortLabel": "30日 10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021032&prepaidCardId=11237177"
+  },
+  {
+    "goodsId": "1021033",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021033",
+    "name": "法國通話上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021123",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021123",
+    "name": "美墨上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021124",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021124",
+    "name": "南美洲30日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021191",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021191",
+    "name": "內地、香港及澳門365日上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "1021295",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=1021295",
+    "name": "澳洲90日上網卡 (50GB)",
+    "single": true
+  },
+  {
+    "goodsId": "10200131",
+    "prepaidCardId": 11238587,
+    "name": "巴基斯坦、哈薩克及指定中東多地上網卡",
+    "shortLabel": "30日 4GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=10200131&prepaidCardId=11238587"
+  },
+  {
+    "goodsId": "10200131",
+    "prepaidCardId": 11238589,
+    "name": "巴基斯坦、哈薩克及指定中東多地上網卡",
+    "shortLabel": "30日 6GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=10200131&prepaidCardId=11238589"
+  },
+  {
+    "goodsId": "10200131",
+    "prepaidCardId": 11238591,
+    "name": "巴基斯坦、哈薩克及指定中東多地上網卡",
+    "shortLabel": "30日 10GB",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=10200131&prepaidCardId=11238591"
+  },
+  {
+    "goodsId": "10200137",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=10200137",
+    "name": "英法意等7國上網卡",
+    "single": true
+  },
+  {
+    "goodsId": "10200148",
+    "url": "https://www.cuniq.com/global/travel-Internet/TravelInternetDetail?goodsId=10200148",
+    "name": "美墨上網卡",
+    "single": true
+  }
+]

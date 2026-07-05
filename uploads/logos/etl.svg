@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="etlG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0088CC"/>
+      <stop offset="100%" style="stop-color:#00BCD4"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="32" fill="none" stroke="url(#etlG)" stroke-width="5"/>
+  <circle cx="50" cy="50" r="14" fill="url(#etlG)"/>
+  <line x1="50" y1="18" x2="50" y2="36" stroke="url(#etlG)" stroke-width="4"/>
+  <line x1="50" y1="64" x2="50" y2="82" stroke="url(#etlG)" stroke-width="4"/>
+  <line x1="18" y1="50" x2="36" y2="50" stroke="url(#etlG)" stroke-width="4"/>
+  <line x1="64" y1="50" x2="82" y2="50" stroke="url(#etlG)" stroke-width="4"/>
+  <text x="100" y="48" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#0088CC">ETL</text>
+  <text x="100" y="72" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#888">Laos Telecom</text>
+</svg>
