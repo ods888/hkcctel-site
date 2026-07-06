@@ -295,11 +295,27 @@ img { max-width: 100%; height: auto; }
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: var(--white);
   box-shadow: var(--shadow-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: -40% -70%;
+  background: linear-gradient(110deg, transparent 35%, rgba(255,255,255,0.42) 50%, transparent 65%);
+  transform: translateX(-55%);
+  transition: transform 0.7s ease;
+  pointer-events: none;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 28px rgba(22, 93, 255, 0.35);
+}
+
+.btn-primary:hover::after {
+  transform: translateX(55%);
 }
 
 .btn-outline {
@@ -379,6 +395,10 @@ img { max-width: 100%; height: auto; }
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+#featuredProductsGrid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .product-card {
   background: var(--white);
   border-radius: var(--radius-lg);
@@ -390,9 +410,26 @@ img { max-width: 100%; height: auto; }
   position: relative;
 }
 
+.product-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(110deg, transparent 0%, rgba(255,255,255,0.55) 45%, transparent 58%);
+  opacity: 0;
+  transform: translateX(-120%);
+  transition: transform 0.75s ease, opacity 0.25s ease;
+  pointer-events: none;
+}
+
 .product-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg), 0 0 0 1px var(--primary), 0 0 40px var(--primary-glow);
+}
+
+.product-card:hover::before {
+  opacity: 1;
+  transform: translateX(120%);
 }
 
 .product-card-image {
@@ -1936,7 +1973,27 @@ img { max-width: 100%; height: auto; }
 }
 
 .featured-products-section {
-  background: var(--gray-50);
+  background:
+    radial-gradient(circle at 78% 8%, rgba(22, 93, 255, 0.08), transparent 34%),
+    linear-gradient(180deg, #F4F8FC 0%, #EEF4FA 55%, #F7FAFD 100%);
+  position: relative;
+}
+
+.featured-products-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(22, 93, 255, 0.032) 1px, transparent 1px),
+    linear-gradient(rgba(22, 93, 255, 0.032) 1px, transparent 1px);
+  background-size: 80px 80px;
+  pointer-events: none;
+  mask-image: linear-gradient(180deg, rgba(0,0,0,0.75), transparent 72%);
+}
+
+.featured-products-section .container {
+  position: relative;
+  z-index: 1;
 }
 
 /* ===== CCTel 品牌級首頁方向 ===== */
@@ -2132,8 +2189,8 @@ img { max-width: 100%; height: auto; }
 .cx-proof {
   background:
     radial-gradient(circle at 78% 0%, rgba(0, 184, 255, 0.16), transparent 32%),
-    linear-gradient(180deg, #071625 0%, #0A1323 100%);
-  padding: 58px 24px 70px;
+    linear-gradient(180deg, #071625 0%, #0A1323 72%, #EEF4FA 100%);
+  padding: 58px 24px 86px;
   color: #fff;
 }
 
@@ -2169,11 +2226,38 @@ img { max-width: 100%; height: auto; }
 .cx-proof-item {
   padding: 26px 24px;
   min-height: 152px;
-  border: 1px solid rgba(91, 215, 255, 0.16);
-  background: linear-gradient(180deg, rgba(255,255,255,0.075), rgba(255,255,255,0.03));
+  border: 1px solid rgba(91, 215, 255, 0.22);
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.11), rgba(255,255,255,0.035)),
+    radial-gradient(circle at 90% 12%, rgba(91, 215, 255, 0.14), transparent 34%);
   border-radius: 6px;
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.18);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 24px 70px rgba(0, 0, 0, 0.18);
   backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
+}
+
+.cx-proof-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -30%;
+  width: 36%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(91, 215, 255, 0.16), transparent);
+  transform: skewX(-18deg);
+  transition: left 0.75s ease;
+}
+
+.cx-proof-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(91, 215, 255, 0.56);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 28px 86px rgba(0, 184, 255, 0.16);
+}
+
+.cx-proof-item:hover::after {
+  left: 110%;
 }
 
 .cx-proof-item span {
@@ -2195,7 +2279,7 @@ img { max-width: 100%; height: auto; }
   background:
     linear-gradient(90deg, rgba(22, 93, 255, 0.035) 1px, transparent 1px),
     linear-gradient(rgba(22, 93, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(180deg, #F4F8FC 0%, #EEF4FA 100%);
+    linear-gradient(180deg, #EEF4FA 0%, #F6FAFD 58%, #EEF4FA 100%);
   background-size: 80px 80px, 80px 80px, auto;
 }
 
@@ -2298,8 +2382,8 @@ img { max-width: 100%; height: auto; }
   padding: 126px clamp(32px, 5vw, 76px) 72px;
   overflow: hidden;
   background:
-    linear-gradient(90deg, rgba(3, 11, 24, 0.96) 0%, rgba(3, 11, 24, 0.82) 42%, rgba(3, 11, 24, 0.38) 100%),
-    linear-gradient(180deg, rgba(3, 11, 24, 0.28) 0%, rgba(3, 11, 24, 0.96) 100%),
+    linear-gradient(90deg, rgba(3, 11, 24, 0.98) 0%, rgba(3, 11, 24, 0.84) 44%, rgba(3, 11, 24, 0.34) 100%),
+    linear-gradient(180deg, rgba(3, 11, 24, 0.24) 0%, rgba(3, 11, 24, 0.78) 68%, #071625 100%),
     url('/static/picture/hero-connectivity-bg.png') center right / cover no-repeat;
   color: #fff;
 }
@@ -2309,12 +2393,14 @@ img { max-width: 100%; height: auto; }
   position: absolute;
   inset: 0;
   background:
+    linear-gradient(115deg, transparent 0%, rgba(91, 215, 255, 0.08) 42%, transparent 56%),
     radial-gradient(circle at 28% 28%, rgba(22, 93, 255, 0.26), transparent 34%),
     linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
   background-size: auto, 96px 96px, 96px 96px;
   mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.65) 62%, transparent 100%);
   pointer-events: none;
+  animation: cxHeroGlint 9s ease-in-out infinite alternate;
 }
 
 .cx-hero-premium::after {
@@ -2324,7 +2410,7 @@ img { max-width: 100%; height: auto; }
   right: 0;
   bottom: 0;
   height: 180px;
-  background: linear-gradient(180deg, transparent, #071625);
+  background: linear-gradient(180deg, transparent 0%, rgba(7, 22, 37, 0.78) 54%, #071625 100%);
   pointer-events: none;
 }
 
@@ -2386,12 +2472,20 @@ img { max-width: 100%; height: auto; }
   min-height: 34px;
   padding: 7px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(91, 215, 255, 0.24);
-  background: rgba(255,255,255,0.07);
-  color: rgba(226, 240, 255, 0.84);
+  border: 1px solid rgba(91, 215, 255, 0.34);
+  background: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.055));
+  color: rgba(226, 240, 255, 0.9);
   font-size: 0.82rem;
   font-weight: 750;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 12px 34px rgba(0, 184, 255, 0.12);
   backdrop-filter: blur(12px);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.cx-hero-proof-row span:hover {
+  transform: translateY(-2px);
+  border-color: rgba(91, 215, 255, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.24), 0 16px 42px rgba(0, 184, 255, 0.22);
 }
 
 .cx-hero-premium .btn-outline {
@@ -2404,6 +2498,29 @@ img { max-width: 100%; height: auto; }
 .cx-hero-premium .btn-outline:hover {
   background: rgba(255,255,255,0.14);
   border-color: rgba(255,255,255,0.36);
+}
+
+@keyframes cxHeroGlint {
+  from {
+    opacity: 0.56;
+    transform: translateX(-18px);
+  }
+  to {
+    opacity: 0.92;
+    transform: translateX(18px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cx-hero-premium::before {
+    animation: none;
+  }
+
+  .btn-primary::after,
+  .product-card::before,
+  .cx-proof-item::after {
+    display: none;
+  }
 }
 
 /* ===== CCTel clean enterprise homepage revision ===== */
@@ -2628,7 +2745,7 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 1024px) {
   .cx-hero-premium {
     min-height: 600px;
-    background-position: 58% center;
+    background-position: 62% center;
   }
 
   .cx-hero-premium .cx-hero-copy {
@@ -2690,6 +2807,10 @@ img { max-width: 100%; height: auto; }
   }
 
   #relatedProductsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #featuredProductsGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -2824,6 +2945,7 @@ img { max-width: 100%; height: auto; }
     height: 260px;
   }
   .products-grid { grid-template-columns: 1fr; }
+  #featuredProductsGrid { grid-template-columns: 1fr; }
   .section { padding: 56px 20px; }
   .section-title { font-size: 1.6rem; }
   .contact-grid { grid-template-columns: 1fr; }
@@ -2864,7 +2986,10 @@ img { max-width: 100%; height: auto; }
   .cx-hero-premium {
     min-height: 580px;
     padding-top: 110px;
-    background-position: 64% center;
+    background:
+      linear-gradient(90deg, rgba(3, 11, 24, 0.98) 0%, rgba(3, 11, 24, 0.86) 58%, rgba(3, 11, 24, 0.38) 100%),
+      linear-gradient(180deg, rgba(3, 11, 24, 0.18) 0%, rgba(3, 11, 24, 0.74) 68%, #071625 100%),
+      url('/static/picture/hero-connectivity-bg.png') 70% center / cover no-repeat;
   }
   .cx-hero-premium::before {
     background-size: auto, 58px 58px, 58px 58px;

@@ -155,8 +155,9 @@
     var displayProducts = products;
     if (displayProducts.length < 4) {
       var all = await fetchProducts();
-      displayProducts = displayProducts.concat(all.filter(function(p) { return !p.featured; })).slice(0, 6);
+      displayProducts = displayProducts.concat(all.filter(function(p) { return !p.featured; }));
     }
+    displayProducts = displayProducts.slice(0, 4);
 
     grid.innerHTML = '';
     if (displayProducts.length === 0) {
